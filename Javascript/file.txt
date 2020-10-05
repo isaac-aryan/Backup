@@ -1,0 +1,18 @@
+SIGN INToggle Contact DropdownToggle More Dropdopwn
+HOME
+HOW-TO ARTICLES
+HOW TO INSTALL NODE.JS ON A MAC
+facebook 
+twitter
+How to Install Node.js on a Mac
+Node.js is required for using many JavaScript tools and for creating server-side JavaScript applications. Here is how you install Node.js on a Mac.
+
+The first thing you should do is check to see if you have a version of Node.js already installed. To do that:
+
+Open the Terminal by pressing Command+Space to open Spotlight Search and entering Terminal then pressing Enter.
+Enter node - v in the Terminal and press Enter.
+Nats-MacBook-Pro:Webucator natdunn$ node -v
+If you do have Node.js installed, it will output the version.
+Update to the latest version using npm i -g npm. If you get a bunch of checkPermissions warnings, you should run the command as the superuser like this: sudo npm i -g npm
+You now have the latest version installed. You do not need to continue with these instructions.
+If you do not have Node.js installed, it will output something like -bash: node: command not found. Continue with these instructions to install it.
